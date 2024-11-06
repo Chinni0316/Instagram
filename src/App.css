@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.app-container {
+  display: flex;
+  height: 100vh;
 }
+
+.main-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    flex-direction: row;
+  }
+}
+
